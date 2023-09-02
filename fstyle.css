@@ -1,0 +1,299 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+body{
+  font-family:"Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+h1{
+  font-size: 3rem;
+
+}
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+
+}
+p{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.small-bold-text{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.primary{
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font: 100;
+  color: white !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+}
+.primary:hover{
+  background-color: var(--accent-color-dark);
+}
+.secondary{
+  border: 0.5px solid var(--primary-text-color);
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  transition: 0.2s ease-out;
+}
+
+.secondary:hover{
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+.container{
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+  overflow: hidden;
+}
+.banner-text{
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+}
+.top{
+  background-color: #4fb3d4;
+  background-image: url('./assets/asset\ 29.png');
+  background-size: 300px;
+}
+.main-nav{
+  margin-top: 20px;
+      justify-content: space-between;
+      position: relative;
+}
+ul{
+  list-style: none;
+}
+.logo img{
+        width: 200px;
+}
+
+.nav-links{
+  flex-basis: 730px;
+}
+.nav-links ul{
+ justify-content: end;
+ gap: 20px;
+}
+.tooth{
+  color: var(--primary-text-color);
+  transition: 0.2s ease-out;
+}
+
+.tooth:hover{
+  color: var(--accent-color);
+}
+
+header {
+  padding-top: 50px var(--padding-inline-section);
+  
+}
+.header-section{
+  justify-content: center;
+  gap: 50px;
+}
+.right img{
+  width: 100%;
+}
+.left{
+  max-width: 40vw;
+}
+.left h1{
+  margin-top: 20px;
+}
+.gbutton{
+  margin: 20px;
+}
+
+.cheader{
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+}
+.slogo{
+  height: 46px;
+
+}
+.logos{
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.features{
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(./assets/asset\ 32.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.fheader{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.fheader h3{
+  padding-top: 30px;
+     margin-bottom: 20px;
+}
+.features-card{
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+}
+.features-area{
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.big-feature{
+  padding: 30px var(--padding-inline-section) 0;
+  
+}
+.bgcontainer{
+  gap: 30px;
+}
+.bgleft img{
+  width: 100%;
+
+}
+.bgright{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.excard{
+  padding-top: 20px;
+  width: 20%;
+  position: relative;
+  height: 300px;
+  background: black;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
+  transition: 0.2s ease-out;
+}
+.excarda{
+  padding-top: 20px;
+  width: 20%;
+  position: relative;
+  height: 300px;
+  background: black;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
+  transition: 0.2s ease-out;
+}
+.excardb{
+  padding-top: 20px;
+  width: 20%;
+  position: relative;
+  height: 300px;
+  background: black;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 38.jpeg);
+  transition: 0.2s ease-out;
+}
+.excardc{
+  padding-top: 20px;
+  width: 20%;
+  position: relative;
+  height: 300px;
+  background: black;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 39.jpeg);
+  transition: 0.2s ease-out;
+}
+.cardtext{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+  
+}
+.exarea{
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.excard:hover{
+  box-shadow: 0 0 10px #888;
+}
+.excarda:hover{
+  box-shadow: 0 0 10px #888;
+}
+.excardb:hover{
+  box-shadow: 0 0 10px #888;
+}
+.excardc:hover{
+  box-shadow: 0 0 10px #888;
+}
+.examples{
+  padding-bottom: 20px;
+}
+.ctac{
+  flex-direction: column;
+  gap: 30px;
+color: white;}
+
+  .cta{
+    padding: 120px var(--padding-inline-section) 120px;
+    background-color: #183b54;
+  }
+  .ctac p{
+    color: white;
+  }
+
+
+  .ll{
+    flex-direction: column;
+     align-items: flex-start;
+     gap: 20px;
+  }
+  .fc{
+    justify-content: space-between;
+    
+  }
+  footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+  }
+  .subfooter{
+     background-color: #b9cde4;
+     padding: var(--padding-inline-section);
+     flex-wrap: wrap;
+  }
+
+  .sb{
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+ .navtog{
+  display: none ;
+ }
